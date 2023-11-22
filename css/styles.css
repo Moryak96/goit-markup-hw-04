@@ -187,7 +187,7 @@ img {
 
 .section-one-button:hover,
 .section-one-button:focus {
-    background-color: #404bbf;
+    background-color: #404bbf
 }
 
 /* Section 2 */
@@ -306,7 +306,7 @@ fill: #f4f4fd;
 
 .our-team-title .social-network .link:hover,
 .section-our-team .social-network .link:focus {
-background-color: #404BBF;
+background-color: #404BBF
 }
 
 .social-icon .link {
@@ -445,7 +445,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-box {
-    margin-right: 120px;
+    margin-right: 120px
 }
 
 .footer .logo-web {
@@ -478,6 +478,15 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px
+}
+
+.social-media-text {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
 }
 
 .footer .social-box .social-network {
