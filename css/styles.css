@@ -84,24 +84,29 @@ img {
     margin-right: auto;
 }
 
-.page .link {
+
+.link {
     display: block;
-    color: #404BBF;
-    font-size: 16px;
+    color: #2E2F42;
     font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+.link:hover,
+.link:focus,
+.link:active {
+    color: #404BBF
+}
+
+.current {
     position: relative;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    color: #404BBF;
 }
 
-.page .link:hover,
-.page .link:focus {
-    color: #404bbf
-}
-
-.page .current::after {
+.current::after {
     content: "";
     position: absolute;
     display: block;
